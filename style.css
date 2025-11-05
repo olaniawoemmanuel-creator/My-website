@@ -1,0 +1,148 @@
+/* General Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cinzel', serif;
+  background: #000;
+  color: #fff;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid red;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('https://i.imgur.com/GyNhL2p.jpeg') center/cover no-repeat;
+}
+
+.hero h1 {
+  font-size: 42px;
+  text-shadow: 3px 3px 10px black;
+}
+
+.hero p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: darkred;
+}
+
+/* Sections */
+.section {
+  padding: 120px 40px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #111;
+  border-top: 2px solid red;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: black;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 20px;
+    border-left: 2px solid red;
+  }
+
+  .nav-links.active {
+    displ
+.social-links {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: white;
+  text-shadow: 0 0 10px red;
+}
+
