@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://olaniawoemmanuel-creator.github.io/My-website/sitemap.xml
