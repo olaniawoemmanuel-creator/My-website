@@ -1,79 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn Mortal Kombat 1 with Noob to Pro MK — tutorials, gameplay mechanics, combo execution, and fight tips.">
-  <meta name="keywords" content="Mortal Kombat, MK1 tutorial, fighting game guide, MK1 mechanics, Noob to Pro MK">
-  <meta name="author" content="Noob to Pro MK">
-  <title>Tutorials | Noob to Pro MK</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tutorials | Noob to Pro MK</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-  <nav>
+  <div class="header-inner">
     <div class="logo">NOOB TO PRO MK</div>
+
+    <button class="menu-toggle" aria-label="Open menu">&#9776;</button>
+
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="combos.html">Combos</a></li>
       <li><a href="tutorials.html" class="active">Tutorials</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-  </nav>
+  </div>
 </header>
 
-<section class="section">
-  <h2>🎮 Tutorials & Training Room Tips</h2>
-  <p>Learn real MK fundamentals — not just combos. Understand movement, timing, spacing, and pressure like a pro.</p>
+<main class="section">
+  <h1>🎮 Mortal Kombat 1 (2023) Tutorials</h1>
+  <p>Hover over any tutorial card to preview, click to dive deeper!</p>
 
-  <div class="tutorial-grid">
+  <div class="combo-grid"> <!-- Using combo-grid to match Combos page styling -->
+    
+    <a href="execution-tutorial.html" class="combo-card">
+      <h3>Execution Basics</h3>
+      <p>Learn precise inputs for combos, specials, and fatalities.</p>
+    </a>
 
-    <!-- Tutorial 1 -->
-    <div class="tutorial-card">
-      <h3>⏱️ Perfecting Combo Timing</h3>
-      <iframe width="100%" height="200" src="https://www.youtube.com/embed/fake_video_1" 
-              title="Combo Timing Guide" frameborder="0" allowfullscreen></iframe>
-      <p>Learn how to cancel into specials without dropping your combo. Use Training Mode's frame data display to find perfect cancel windows.</p>
-    </div>
+    <a href="spacing-tutorial.html" class="combo-card">
+      <h3>Spacing & Positioning</h3>
+      <p>Master spacing to control the arena and punish mistakes.</p>
+    </a>
 
-    <!-- Tutorial 2 -->
-    <div class="tutorial-card">
-      <h3>🛡️ Defense & Punishing</h3>
-      <iframe width="100%" height="200" src="https://www.youtube.com/embed/fake_video_2" 
-              title="Defense and Punish Guide" frameborder="0" allowfullscreen></iframe>
-      <p>Don’t just block — *punish.* Every unsafe move can be countered if you understand frame advantage. This guide explains how to react and reverse momentum.</p>
-    </div>
+    <a href="punish-tutorial.html" class="combo-card">
+      <h3>Punishing Mistakes</h3>
+      <p>React to opponent errors and maximize damage efficiently.</p>
+    </a>
 
-    <!-- Tutorial 3 -->
-    <div class="tutorial-card">
-      <h3>⚡ Mastering Kameo Fighters</h3>
-      <iframe width="100%" height="200" src="https://www.youtube.com/embed/fake_video_3" 
-              title="Kameo Fighter Guide" frameborder="0" allowfullscreen></iframe>
-      <p>Learn how to use Kameos effectively to extend combos, escape pressure, or start mix-ups. Examples shown for Scorpion, Sub-Zero, and Sonya.</p>
-    </div>
+    <a href="character-strategy.html" class="combo-card">
+      <h3>Character Strategy</h3>
+      <p>Detailed guides for each fighter's strengths and weaknesses.</p>
+    </a>
 
-    <!-- Tutorial 4 -->
-    <div class="tutorial-card">
-      <h3>🔥 Neutral Game & Spacing</h3>
-      <iframe width="100%" height="200" src="https://www.youtube.com/embed/fake_video_4" 
-              title="Neutral Game Guide" frameborder="0" allowfullscreen></iframe>
-      <p>The most underrated skill — spacing. Learn how to control distance, bait attacks, and whiff punish with maximum efficiency.</p>
-    </div>
+    <a href="advanced-techniques.html" class="combo-card">
+      <h3>Advanced Techniques</h3>
+      <p>Learn frame traps, cancels, and combos to outplay your opponents.</p>
+    </a>
 
   </div>
-</section>
+</main>
 
 <footer>
-  <p>© 2025 Noob to Pro MK — Finish Your Limits</p>
-  <div class="social-links">
-    <a href="https://www.youtube.com/@NoobtoProMK" target="_blank">YouTube</a>
-    <a href="https://instagram.com/noob_to_pro_mk" target="_blank">Instagram</a>
-    <a href="https://www.tiktok.com/@noob_to_pro_mk" target="_blank">TikTok</a>
-  </div>
+  <p>© 2025 Noob to Pro MK</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
