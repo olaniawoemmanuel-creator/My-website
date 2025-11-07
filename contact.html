@@ -6,37 +6,77 @@
   <title>Contact | Noob to Pro MK</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- reCAPTCHA Script -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 
 <header>
-  <nav>
+  <div class="header-inner">
     <div class="logo">NOOB TO PRO MK</div>
+    <button class="menu-toggle" aria-label="Open menu">&#9776;</button>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="combos.html">Combos</a></li>
       <li><a href="tutorials.html">Tutorials</a></li>
       <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
-  </nav>
+  </div>
 </header>
 
-<section class="section">
-  <h2>📩 Contact & Socials</h2>
-  <p>Follow me for more MK content or reach out for collaboration and feedback!</p>
+<main>
+  <!-- HERO SECTION -->
+  <section class="hero contact-hero">
+    <div class="smoke-overlay"></div>
+    <div class="spark-container"></div>
+    <h1>Get in Touch!</h1>
+    <p>Reach out for collaborations, feedback, or just say hi 👋</p>
+  </section>
 
-  <div class="social-links">
-    <a href="https://www.youtube.com/@NoobtoProMK" target="_blank">YouTube</a>
-    <a href="https://instagram.com/noob_to_pro_mk" target="_blank">Instagram</a>
-    <a href="https://www.tiktok.com/@noob_to_pro_mk" target="_blank">TikTok</a>
-  </div>
+  <!-- CONTACT SECTION -->
+  <section class="section contact-section">
+    <div class="contact-wrapper">
+      
+      <!-- CONTACT FORM -->
+      <form id="contact-form" class="contact-form" 
+            action="https://formspree.io/f/mqagrodw" 
+            method="POST">
 
-  <p class="email">📧 Email: <a href="mailto:noobtopromk@gmail.com">noobtopromk@gmail.com</a></p>
-</section>
+        <h2>📬 Send a Message</h2>
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+
+        <!-- reCAPTCHA widget -->
+        <div class="g-recaptcha" 
+             data-sitekey="6LfGMQUsAAAAAHelQiyH4dXtNvrcvfqDyNEZP6on"
+             aria-label="reCAPTCHA verification"></div>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <!-- SOCIAL LINKS -->
+      <div class="social-links-advanced">
+        <h2>Follow Me</h2>
+        <a href="https://www.youtube.com/@NoobtoProMK" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+        <a href="https://instagram.com/noob_to_pro_mk" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.tiktok.com/@noob_to_pro_mk" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        <p>📧 Email: <a href="mailto:noobtopromk@gmail.com">noobtopromk@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+</main>
 
 <footer>
   <p>© 2025 Noob to Pro MK — Finish Your Limits</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
+
+
+
