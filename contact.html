@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- reCAPTCHA Script -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -27,33 +25,28 @@
 </header>
 
 <main>
-  <!-- HERO SECTION -->
   <section class="hero contact-hero">
     <div class="smoke-overlay"></div>
-    <div class="spark-container"></div>
     <h1>Get in Touch!</h1>
     <p>Reach out for collaborations, feedback, or just say hi 👋</p>
   </section>
 
-  <!-- CONTACT SECTION -->
   <section class="section contact-section">
     <div class="contact-wrapper">
-      
+
       <!-- CONTACT FORM -->
-      <form id="contact-form" class="contact-form" 
-            action="https://formspree.io/f/mqagrodw" 
-            method="POST">
-
+      <form 
+        id="contact-form" 
+        action="https://formspree.io/f/mqagrodw" 
+        method="POST"
+      >
         <h2>📬 Send a Message</h2>
-
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="_replyto" placeholder="Your Email" required>
         <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
 
-        <!-- reCAPTCHA widget -->
-        <div class="g-recaptcha" 
-             data-sitekey="6LfGMQUsAAAAAHelQiyH4dXtNvrcvfqDyNEZP6on"
-             aria-label="reCAPTCHA verification"></div>
+        <!-- reCAPTCHA -->
+        <div class="g-recaptcha" data-sitekey="6LfGMQUsAAAAAHelQiyH4dXtNvrcvfqDyNEZP6on"></div>
 
         <button type="submit" class="btn">Send Message</button>
       </form>
@@ -66,6 +59,7 @@
         <a href="https://www.tiktok.com/@noob_to_pro_mk" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
         <p>📧 Email: <a href="mailto:noobtopromk@gmail.com">noobtopromk@gmail.com</a></p>
       </div>
+
     </div>
   </section>
 </main>
@@ -77,6 +71,7 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
