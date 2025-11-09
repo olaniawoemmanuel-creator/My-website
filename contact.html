@@ -4,65 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Noob to Pro MK</title>
-
-  <!-- Styles -->
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
-<header>
-  <div class="header-inner">
-    <div class="logo">NOOB TO PRO MK</div>
-    <button class="menu-toggle" aria-label="Open menu">&#9776;</button>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="combos.html">Combos</a></li>
-      <li><a href="tutorials.html">Tutorials</a></li>
-      <li><a href="contact.html" class="active">Contact</a></li>
-    </ul>
-  </div>
-</header>
 
-<main>
-  <!-- HERO SECTION -->
-  <section class="hero contact-hero">
-    <div class="smoke-overlay"></div>
-    <h1>Get in Touch!</h1>
-    <p>Reach out for collaborations, feedback, or just say hi 👋</p>
+  <header>
+      <nav>
+          <div class="logo">NOOB TO PRO MK</div>
+          <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="combos.html">Combos</a></li>
+              <li><a href="tutorials.html">Tutorials</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <section class="contact-hero">
+      <h1>Contact Us</h1>
+      <p>Have questions or suggestions? Let’s connect!</p>
   </section>
 
-  <!-- CONTACT SECTION -->
-  <section class="section contact-section">
-    <div class="contact-wrapper">
+  <section class="contact-section">
+      <div class="contact-wrapper">
+          <form action="https://formspree.io/f/xgvejwvd" method="POST">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
 
-      <!-- CONTACT FORM -->
-      <form id="contact-form" action="https://formspree.io/f/mqagrodw" method="POST">
-        <h2>📬 Send a Message</h2>
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="_replyto" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
 
-      <!-- SOCIAL LINKS -->
-      <div class="social-links-advanced">
-        <h2>Follow Me</h2>
-        <a href="https://www.youtube.com/@NoobtoProMK" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
-        <a href="https://instagram.com/noob_to_pro_mk" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-        <a href="https://www.tiktok.com/@noob_to_pro_mk" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
-        <p>📧 Email: <a href="mailto:noobtopromk@gmail.com">noobtopromk@gmail.com</a></p>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+
+              <button type="submit" class="btn">Send Message</button>
+          </form>
       </div>
-
-    </div>
   </section>
-</main>
 
-<footer>
-  <p>© 2025 Noob to Pro MK — Finish Your Limits</p>
-</footer>
+  <footer>
+      <p>© 2025 Noob to Pro MK — Finish Your Limits</p>
+      <div class="social-links">
+          <a href="https://www.youtube.com/@NoobtoProMK" target="_blank">YouTube</a>
+          <a href="https://instagram.com/noob_to_pro_mk" target="_blank">Instagram</a>
+          <a href="https://www.tiktok.com/@noob_to_pro_mk" target="_blank">TikTok</a>
+      </div>
+  </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
