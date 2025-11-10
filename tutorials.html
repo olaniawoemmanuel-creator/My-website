@@ -1,67 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tutorials | Noob to Pro MK</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tutorials | Noob to Pro MK</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- ---------- HEADER ---------- -->
+  <header>
+    <nav>
+      <div class="logo">NOOB TO PRO MK</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="combos.html">Combos</a></li>
+        <li><a href="tutorials.html" class="active">Tutorials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-  <div class="header-inner">
-    <div class="logo">NOOB TO PRO MK</div>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="combos.html">Combos</a></li>
-      <li><a href="tutorials.html" class="active">Tutorials</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <button class="menu-toggle">&#9776;</button>
-  </div>
-</header>
+  <!-- ---------- MAIN SECTION ---------- -->
+  <main class="section">
+    <h1>🎮 Mortal Kombat 1 Tutorials</h1>
+    <p>Level up your skills — from basic mechanics to advanced strategy.</p>
 
-<main class="section">
-  <h1>🎮 Mortal Kombat 1 Tutorials</h1>
-  <p>Learn execution, strategy, spacing & punishes!</p>
+    <div class="combo-grid">
+      <!-- Basic Mechanics -->
+      <a href="basic-mechanics.html" class="combo-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1599058917210-b8b9202b2bb0?auto=format&fit=crop&w=400&q=80" alt="Basic Mechanics">
+          <div class="overlay"><span>Start Learning</span></div>
+        </div>
+        <h3>Basic Mechanics</h3>
+        <p>Learn the fundamentals — movement, blocking, and attack flow.</p>
+      </a>
 
-  <div class="combo-grid">
-    <a href="basic-mechanics.html" class="combo-card" aria-label="Basic Mechanics Tutorial">
-      <img src="https://images.unsplash.com/photo-1599058917210-b8b9202b2bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzY4M3wwfDF8c2VhcmNofDF8fGdhbWluZyUyMG1vdmVzfGVufDB8fHx8MTY5OTc4MTM0Ng&ixlib=rb-4.0.3&q=80&w=400" alt="Basic Mechanics">
-      <h3>Basic Mechanics</h3>
-      <p>Learn the fundamental moves, blocking, and movement techniques.</p>
-    </a>
+      <!-- Combo Guide -->
+      <a href="combo-guide.html" class="combo-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1599058936013-23f6c4e1d56d?auto=format&fit=crop&w=400&q=80" alt="Combo Guide">
+          <div class="overlay"><span>View Tutorial</span></div>
+        </div>
+        <h3>Combo Guide</h3>
+        <p>Learn to chain attacks fluidly and maximize your damage output.</p>
+      </a>
 
-    <a href="combo-guide.html" class="combo-card" aria-label="Combo Guide Tutorial">
-      <img src="https://images.unsplash.com/photo-1599058936013-23f6c4e1d56d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzY4M3wwfDF8c2VhcmNofDF8fGNvbWJvJTIwZ3VpZGV8ZW58MHx8fHwxNjk5NzgxMzU5&ixlib=rb-4.0.3&q=80&w=400" alt="Combo Guide">
-      <h3>Combo Guide</h3>
-      <p>Master chaining attacks and linking moves for maximum damage.</p>
-    </a>
+      <!-- Special Moves -->
+      <a href="special-moves.html" class="combo-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1611151140374-7de8f0f151df?auto=format&fit=crop&w=400&q=80" alt="Special Moves">
+          <div class="overlay"><span>View Moves</span></div>
+        </div>
+        <h3>Special Moves</h3>
+        <p>Discover unique special attacks and their perfect timing windows.</p>
+      </a>
 
-    <a href="special-moves.html" class="combo-card" aria-label="Special Moves Tutorial">
-      <img src="https://images.unsplash.com/photo-1611151140374-7de8f0f151df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzY4M3wwfDF8c2VhcmNofDF8fHNwZWNpYWwlMjBtb3ZlcyUyMGdhbWV8ZW58MHx8fHwxNjk5NzgxMzc1&ixlib=rb-4.0.3&q=80&w=400" alt="Special Moves">
-      <h3>Special Moves</h3>
-      <p>Learn each character’s special moves and when to use them.</p>
-    </a>
+      <!-- Fatalities -->
+      <a href="fatalities.html" class="combo-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1599058950123-d536f17215f4?auto=format&fit=crop&w=400&q=80" alt="Fatalities">
+          <div class="overlay"><span>View Guide</span></div>
+        </div>
+        <h3>Fatalities</h3>
+        <p>Perform cinematic finishing moves to dominate the arena.</p>
+      </a>
 
-    <a href="fatalities.html" class="combo-card" aria-label="Fatalities Tutorial">
-      <img src="https://images.unsplash.com/photo-1599058950123-d536f17215f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzY4M3wwfDF8c2VhcmNofDF8fGZpbmlzaGluZyUyMG1vdmV8ZW58MHx8fHwxNjk5NzgxMzk0&ixlib=rb-4.0.3&q=80&w=400" alt="Fatalities">
-      <h3>Fatalities</h3>
-      <p>Execute the iconic finishing moves and cinematic combos.</p>
-    </a>
+      <!-- Advanced Strategy -->
+      <a href="advanced-strategy.html" class="combo-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?auto=format&fit=crop&w=400&q=80" alt="Advanced Strategy">
+          <div class="overlay"><span>Learn More</span></div>
+        </div>
+        <h3>Advanced Strategy</h3>
+        <p>Understand spacing, punish mechanics, and counterplay like a pro.</p>
+      </a>
+    </div>
+  </main>
 
-    <a href="advanced-strategy.html" class="combo-card" aria-label="Advanced Strategy Tutorial">
-      <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzY4M3wwfDF8c2VhcmNofDF8fGdhbW1lJTIwdGFjdGljfGVufDB8fHx8MTY5OTc4MTQxNA&ixlib=rb-4.0.3&q=80&w=400" alt="Advanced Strategy">
-      <h3>Advanced Strategy</h3>
-      <p>Learn spacing, punishes, and high-level tactics to outplay opponents.</p>
-    </a>
-  </div>
-</main>
+  <!-- ---------- FOOTER ---------- -->
+  <footer>
+    <p>© 2025 Noob to Pro MK — Finish Your Limits</p>
+    <div class="social-links">
+      <a href="https://www.youtube.com/@NoobtoProMK" target="_blank">YouTube</a>
+      <a href="https://instagram.com/noob_to_pro_mk" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@noob_to_pro_mk" target="_blank">TikTok</a>
+    </div>
+  </footer>
 
-<footer>
-  <p>© 2025 Noob to Pro MK</p>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
