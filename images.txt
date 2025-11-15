@@ -1,0 +1,5 @@
+<img src="https://via.placeholder.com/300x180?text=Basic+Mechanics" alt="Basic Mechanics">
+<img src="https://via.placeholder.com/300x180?text=Combo+Guide" alt="Combo Guide">
+<img src="https://via.placeholder.com/300x180?text=Special+Moves" alt="Special Moves">
+<img src="https://via.placeholder.com/300x180?text=Fatalities" alt="Fatalities">
+<img src="https://via.placeholder.com/300x180?text=Advanced+Strategy" alt="Advanced Strategy">
